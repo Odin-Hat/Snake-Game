@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Estilo do tabuleiro */
+#game-board {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+/* Estilo da célula (quadrado) */
+.cell {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* Estilo da cobra */
+.snake {
+  background-color: #333;
+}
+
+/* Estilo da comida */
+.food {
+  background-color: #ff6347;
+}
